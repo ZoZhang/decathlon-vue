@@ -1,0 +1,51 @@
+/**
+    Style Global
+ */
+a{
+    color:#000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul,li {
+    list-style-type:none;
+}
+img{
+    max-width:100%;
+}
+html,body{
+    font-size:1rem;
+    background-color: #fdfdfd;
+}
+figcaption{
+    font-style: italic;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+header {
+    padding: 2rem;
+}
+
+.logo svg{
+    max-width: 9rem;
+}
+
+/**
+ * tag cloud
+ */
+section {
+    margin-top: 7.2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+section > article{
+    position: relative;
+}
+

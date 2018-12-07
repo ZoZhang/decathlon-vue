@@ -1,0 +1,63 @@
+
+.vue-tag-cloud {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+    line-height: normal;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    height: 30em;
+    overflow: hidden;
+    color: #09f;
+}
+
+.vue-tag-cloud a {
+    font-size: inherit;
+    text-decoration: none;
+}
+
+.vue-tag-cloud span { padding: 0; }
+.vue-tag-cloud span.w10 {
+    font-size: 550%;
+    color: #0cf;
+}
+.vue-tag-cloud span.w9 {
+    font-size: 500%;
+    color: #0cf;
+}
+.vue-tag-cloud span.w8 {
+    font-size: 450%;
+    color: #0cf;
+}
+.vue-tag-cloud span.w7 {
+    font-size: 400%;
+    color: #39d;
+}
+.vue-tag-cloud span.w6 {
+    font-size: 350%;
+    color: #90c5f0;
+}
+.vue-tag-cloud span.w5 {
+    font-size: 300%;
+    color: #90a0dd;
+}
+.vue-tag-cloud span.w4 {
+    font-size: 250%;
+    color: #90c5f0;
+}
+.vue-tag-cloud span.w3 {
+    font-size: 200%;
+    color: #a0ddff;
+}
+.vue-tag-cloud span.w2 {
+    font-size: 150%;
+    color: #99ccee;
+}
+.vue-tag-cloud span.w1 {
+    font-size: 100%;
+    color: #aab5f0;
+}
+
+.vue-tag-cloud a { color: inherit; }
+.vue-tag-cloud a:hover { color: #0df; }
+.vue-tag-cloud a:hover { color: #0cf; }
