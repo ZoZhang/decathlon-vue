@@ -1,0 +1,19 @@
+{# templates/fronted/index/home.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body_id %}home-page{% endblock %}
+
+{% block body %}
+
+<section>
+    <article id='vue-tag-cloud' class='vue-tag-cloud'>Chargement en cours de la liste de sports API, veuillez
+        patienter..
+    ^ ^</article>
+</section>
+
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/sport.js')}}"></script>
+{% endblock %}
